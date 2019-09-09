@@ -1,0 +1,12 @@
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\testEdurekaPhpWebsite\bin\Debug\testEdurekaPhpWebsite.exe
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\testEdurekaPhpWebsite\bin\Debug\testEdurekaPhpWebsite.pdb
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\testEdurekaPhpWebsite\bin\Debug\nunit.framework.dll
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\testEdurekaPhpWebsite\bin\Debug\WebDriver.dll
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\testEdurekaPhpWebsite\bin\Debug\nunit.framework.pdb
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\testEdurekaPhpWebsite\bin\Debug\nunit.framework.xml
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\testEdurekaPhpWebsite\bin\Debug\WebDriver.xml
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\testEdurekaPhpWebsite\obj\Debug\testEdurekaPhpWebsite.csprojAssemblyReference.cache
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\testEdurekaPhpWebsite\obj\Debug\testEdurekaPhpWebsite.csproj.CoreCompileInputs.cache
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\testEdurekaPhpWebsite\obj\Debug\testEdurekaPhpWebsite.csproj.CopyComplete
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\testEdurekaPhpWebsite\obj\Debug\testEdurekaPhpWebsite.exe
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\testEdurekaPhpWebsite\obj\Debug\testEdurekaPhpWebsite.pdb

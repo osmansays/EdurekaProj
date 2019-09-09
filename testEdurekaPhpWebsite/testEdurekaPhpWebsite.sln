@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testEdurekaPhpWebsite", "testEdurekaPhpWebsite.csproj", "{79873E55-6F3C-424F-948C-2CE3870857E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79873E55-6F3C-424F-948C-2CE3870857E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79873E55-6F3C-424F-948C-2CE3870857E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79873E55-6F3C-424F-948C-2CE3870857E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79873E55-6F3C-424F-948C-2CE3870857E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69B915B2-8F4D-45DF-94F4-D4B8F1E90D74}
+	EndGlobalSection
+EndGlobal
