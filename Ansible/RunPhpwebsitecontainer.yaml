@@ -1,0 +1,25 @@
+---
+- hosts: slaveserver
+  become: yes
+  become_user: root
+  tasks:
+    - name: install python
+      apt:
+        name: python
+        state: present
+    - name: install python pip
+      apt:
+        name: python-pip
+        state: present
+    - name: install docker with pip
+      pip:
+        name: docker
+        state: present
+    - name: Run the container
+      docker_container:
+        image: osmansays/public/phpwebsite
+        name: phpwebsite
+        ports:
+          - "80:80"
+        state: started
+
