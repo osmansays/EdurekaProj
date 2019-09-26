@@ -1,0 +1,17 @@
+---
+- hosts: slaveserver
+  gather_facts: yes 
+  become_method: sudo
+  become: true
+  tasks:
+  - name: Download Pupprt Agent Package
+    apt:
+      deb: https://apt.puppetlabs.com/puppet5-release-xenial.deb
+      state: present
+      #  - name: update apt-get chache
+      #    apt: update_cache=yes
+    #    apt: cache_valid_time=0 deb=https://apt.puppetlabs.com/puppet5-release-xenial.deb update_cache=yes
+    #      update_cache: yes
+      #force_apt_get: yes
+      # deb: https://apt.puppetlabs.com/puppet5-release-xenial.deb
+      #state: present
