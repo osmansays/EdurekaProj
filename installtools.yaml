@@ -1,0 +1,18 @@
+---
+- hosts: slaveserver
+  become_user: root
+  tasks:
+    - name: Install Git
+      apt:
+        name: git
+        state: present
+
+    - name: Install ChromeDrive
+      apt:
+        name: chromium-chromedriver
+        state: present
+
+    - name: Install Chromium Browser
+      apt:
+        name: chromium-browser 
+        state: present
