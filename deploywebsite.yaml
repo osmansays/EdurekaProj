@@ -1,0 +1,12 @@
+---
+- hosts: slaveserver
+  become: yes
+  become_user: root
+  tasks:
+    - name: pull the image from docker hub and run it 
+      docker_container:
+        image: osmansays/public:phpwebsite
+        name: phpwebsite
+        ports:
+          - "80:80"
+        state: started
