@@ -12,14 +12,14 @@ namespace Tests
         {
 
             ChromeOptions options = new ChromeOptions();
-            //System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+            //setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
             options.AddArguments("start-maximized"); // open Browser in maximized mode
             options.AddArguments("disable-infobars"); // disabling infobars
             options.AddArguments("--disable-extensions"); // disabling extensions
             //options.AddArguments("--disable-gpu"); // applicable to windows os only
             options.AddArguments("--disable-dev-shm-usage"); // overcome limited resource problems
             options.AddArguments("--no-sandbox"); // Bypass OS security model
-            //IWebDriver driver=new ChromeDriver();
+            options.AddArguments("--disable-setuid-sandbox");            //IWebDriver driver=new ChromeDriver();
             //  if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
             IWebDriver driver = new ChromeDriver(@"/usr/bin/",options); //(@"D:\ChromeDriver\chromedriver_win32\");
 
