@@ -1,0 +1,13 @@
+---
+- hosts: slaveserver
+  become: yes
+  become_user: root
+  tasks:
+    - name: stop running website container
+      docker_container:
+        name: phpwebsite
+        state: stopped
+    - name: Removing website container
+      docker_container:
+        name: phpwebsite
+        state: absent
