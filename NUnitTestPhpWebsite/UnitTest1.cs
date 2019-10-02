@@ -1,6 +1,7 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using System;
 using System.Runtime.InteropServices;
 
 namespace Tests
@@ -20,11 +21,23 @@ namespace Tests
             options.AddArguments("--disable-dev-shm-usage"); // overcome limited resource problems
             options.AddArguments("--no-sandbox"); // Bypass OS security model
             options.AddArguments("--disable-setuid-sandbox");            //IWebDriver driver=new ChromeDriver();
+            options.AddArguments("headless");
             //  if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
-            IWebDriver driver = new ChromeDriver(@"/usr/bin/",options); //(@"D:\ChromeDriver\chromedriver_win32\");
+            //IWebDriver driver = new ChromeDriver(@"/usr/bin/",options); //
+            IWebDriver driver = new ChromeDriver(@"D:\ChromeDriver\chromedriver_win32\");
 
-         //   if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-          //      driver = new ChromeDriver(@"chromedriver");
+            //   if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+                  driver = new ChromeDriver(@"chromedriver");
+
+            string driverPath = "/opt/selenium/";
+            string driverExecutableFileName = "chromedriver";
+            
+            options.AddArguments("no-sandbox");
+            options.BinaryLocation = "/opt/google/chrome/chrome";
+            ChromeDriverService service = ChromeDriverService.CreateDefaultService(driverPath, driverExecutableFileName);
+            driver = new ChromeDriver(service, options, TimeSpan.FromSeconds(30));
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(40);
+
 
             driver.Url = "http://192.168.37.21/index.php";
 
