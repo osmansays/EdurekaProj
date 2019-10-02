@@ -24,10 +24,10 @@ namespace Tests
             options.AddArguments("headless");
             //  if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
             //IWebDriver driver = new ChromeDriver(@"/usr/bin/",options); //
-            IWebDriver driver = new ChromeDriver(@"D:\ChromeDriver\chromedriver_win32\");
+           // IWebDriver driver = new ChromeDriver(@"D:\ChromeDriver\chromedriver_win32\");
 
             //   if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
-                  driver = new ChromeDriver(@"chromedriver");
+                  //driver = new ChromeDriver(@"chromedriver");
 
             string driverPath = "/opt/selenium/";
             string driverExecutableFileName = "chromedriver";
@@ -35,8 +35,8 @@ namespace Tests
             options.AddArguments("no-sandbox");
             options.BinaryLocation = "/opt/google/chrome/chrome";
             ChromeDriverService service = ChromeDriverService.CreateDefaultService(driverPath, driverExecutableFileName);
-            driver = new ChromeDriver(service, options, TimeSpan.FromSeconds(30));
-            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(40);
+            IWebDriver driver = new ChromeDriver(service, options, TimeSpan.FromSeconds(30));
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(40);
 
 
             driver.Url = "http://192.168.37.21/index.php";
