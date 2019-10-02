@@ -19,9 +19,9 @@ namespace Tests
             //options.AddArguments("--disable-gpu"); // applicable to windows os only
             options.AddArguments("--disable-dev-shm-usage"); // overcome limited resource problems
             options.AddArguments("--no-sandbox"); // Bypass OS security model
-            IWebDriver driver=new ChromeDriver();
-          //  if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
-             driver = new ChromeDriver(@"/usr/bin/chromedriver",options); //(@"D:\ChromeDriver\chromedriver_win32\");
+            //IWebDriver driver=new ChromeDriver();
+            //  if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+            IWebDriver driver = new ChromeDriver(@"/usr/bin/chromedriver",options); //(@"D:\ChromeDriver\chromedriver_win32\");
 
          //   if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
           //      driver = new ChromeDriver(@"chromedriver");
