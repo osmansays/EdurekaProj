@@ -21,7 +21,7 @@ namespace Tests
             options.AddArguments("--no-sandbox"); // Bypass OS security model
             //IWebDriver driver=new ChromeDriver();
             //  if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
-            IWebDriver driver = new ChromeDriver(@"/usr/bin/chromedriver",options); //(@"D:\ChromeDriver\chromedriver_win32\");
+            IWebDriver driver = new ChromeDriver(@"/usr/bin/",options); //(@"D:\ChromeDriver\chromedriver_win32\");
 
          //   if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
           //      driver = new ChromeDriver(@"chromedriver");
