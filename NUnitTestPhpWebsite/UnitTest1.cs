@@ -29,17 +29,17 @@ namespace Tests
             //   if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
                   //driver = new ChromeDriver(@"chromedriver");
 
-            string driverPath = "/opt/selenium/";
+            string driverPath = "/usr/bin/";
             string driverExecutableFileName = "chromedriver";
             
             options.AddArguments("no-sandbox");
-            options.BinaryLocation = "/opt/google/chrome/chrome";
+            options.BinaryLocation = "/usr/bin/google-chrome";
             ChromeDriverService service = ChromeDriverService.CreateDefaultService(driverPath, driverExecutableFileName);
             IWebDriver driver = new ChromeDriver(service, options, TimeSpan.FromSeconds(30));
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(40);
 
 
-            driver.Url = "http://192.168.37.21/index.php";
+            driver.Url = "http://slaveserver/index.php";
 
             IWebElement AboutUsLink = driver.FindElement(By.LinkText("About Us"));
             AboutUsLink.Click();
