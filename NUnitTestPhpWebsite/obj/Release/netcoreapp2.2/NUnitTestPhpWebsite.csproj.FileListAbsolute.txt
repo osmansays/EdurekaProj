@@ -1,0 +1,13 @@
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\bin\Release\netcoreapp2.2\NUnit3.TestAdapter.dll
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\bin\Release\netcoreapp2.2\NUnit3.TestAdapter.pdb
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\bin\Release\netcoreapp2.2\nunit.engine.netstandard.dll
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\bin\Release\netcoreapp2.2\NUnitTestPhpWebsite.deps.json
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\bin\Release\netcoreapp2.2\NUnitTestPhpWebsite.runtimeconfig.json
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\bin\Release\netcoreapp2.2\NUnitTestPhpWebsite.runtimeconfig.dev.json
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\bin\Release\netcoreapp2.2\NUnitTestPhpWebsite.dll
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\bin\Release\netcoreapp2.2\NUnitTestPhpWebsite.pdb
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\obj\Release\netcoreapp2.2\NUnitTestPhpWebsite.csproj.CoreCompileInputs.cache
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\obj\Release\netcoreapp2.2\NUnitTestPhpWebsite.AssemblyInfoInputs.cache
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\obj\Release\netcoreapp2.2\NUnitTestPhpWebsite.AssemblyInfo.cs
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\obj\Release\netcoreapp2.2\NUnitTestPhpWebsite.dll
+D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\obj\Release\netcoreapp2.2\NUnitTestPhpWebsite.pdb

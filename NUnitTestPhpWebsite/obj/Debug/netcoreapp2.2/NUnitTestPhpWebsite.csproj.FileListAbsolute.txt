@@ -11,4 +11,3 @@ D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\obj\Deb
 D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\bin\Debug\netcoreapp2.2\NUnitTestPhpWebsite.pdb
 D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\obj\Debug\netcoreapp2.2\NUnitTestPhpWebsite.dll
 D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\obj\Debug\netcoreapp2.2\NUnitTestPhpWebsite.pdb
-D:\Data\Courses\Edureka\DevOps\cet. project\selinuem\NUnitTestPhpWebsite\obj\Debug\netcoreapp2.2\NUnitTestPhpWebsite.csprojAssemblyReference.cache
