@@ -35,11 +35,12 @@ namespace Tests
             options.AddArguments("no-sandbox");
             options.BinaryLocation = "/usr/bin/google-chrome";
             ChromeDriverService service = ChromeDriverService.CreateDefaultService(driverPath, driverExecutableFileName);
-            IWebDriver driver = new ChromeDriver(service, options, TimeSpan.FromSeconds(30));
+            IWebDriver driver = new ChromeDriver(service, options, TimeSpan.FromSeconds(200));
+
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(40);
 
 
-            driver.Url = "http://slaveserver/index.php";
+            driver.Url = "http://192.168.37.21/index.php";
 
             IWebElement AboutUsLink = driver.FindElement(By.LinkText("About Us"));
             AboutUsLink.Click();
