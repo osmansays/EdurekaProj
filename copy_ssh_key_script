@@ -1,0 +1,5 @@
+#! /bin/sh
+for host in osmaster01.openshiftlab  \
+    osnode01.openshiftlab ;
+    do ssh-copy-id -i ~/.ssh/id_rsa.pub $host;
+    done
